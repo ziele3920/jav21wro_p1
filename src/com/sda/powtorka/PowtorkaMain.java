@@ -19,6 +19,12 @@ public class PowtorkaMain {
                 Rectangle rec = new Rectangle(sideA, sideB);
                 rec.draw();
                 break;
+            case 2:
+                System.out.println("Please insert length od side");
+                int side = scanner.nextInt();
+                Square square = new Square(side);
+                square.draw();
+                break;
         }
     }
 }
